@@ -1,0 +1,22 @@
+# Ambiente
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# Dados e artefatos gerados (bronze/silver/gold; baixar a base do Kaggle, ver README)
+# data/* e não data/: ignorar o diretório inteiro faz o git nem descer nele,
+# e aí a exceção do .gitkeep não teria efeito
+data/*
+!data/.gitkeep
+*.zip
+Brazilian E-Commerce Public Dataset by Olist/
+*.csv
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
